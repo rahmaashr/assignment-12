@@ -1,0 +1,114 @@
+.photo {
+    height: 100vh;
+    background-image: url(../img/events-heavenly-header.jpg);
+    position: relative;
+    width: 100%;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+}
+.bg-img {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.overlay h2 {
+    font-size: 60px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg-pink {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.photo2 {
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: antiquewhite;
+    height: 50vh;
+}
+.bg {
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+}
+.days-container,
+.hours-container,
+.minutes-container,
+.seconds-container {
+    border: 1px solid #fff;
+}
+.font {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    font-family: "Pacifico", cursive;
+}
+.font2 {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(68, 68, 68);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.border-icon i {
+    border: 1px solid #999999;
+    color: #777777;
+    width: 36px;
+    height: 37px;
+}
+.border-icon i:hover {
+    color: #fff;
+    background-color: #D62E33;
+}
+.mb-5 p {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-weight: 300;
+    font-size: 17px;
+}
+.mb-5 span {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-weight: 200;
+}
+.sidenav a {
+    line-height: 80px;
+    color: #fff;
+}
+.sidenav a:hover {
+    color: #601C18;
+    transition: 0.3s;
+}
+.width {
+    width: 16%;
+}
+.sidenav {
+    width: 0; 
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    background-color: #111;
+    overflow: hidden; 
+    transition: width 0.5s;
+}
+.sidenav.active {
+    width: 250px; 
+}
+.openNav {
+    transition: opacity 0.3s ease;
+}
+#leftMenu {
+    width: 0;
+    transition: width 0.5s;
+}
+#home-content {
+    transition: margin-left 0.5s;
+}
+.active {
+    width: 250px;
+}
+.openNav{
+    font-size:30px;
+    cursor:pointer;
+}

@@ -1,0 +1,18 @@
+.ex-1{
+    background-color: #333;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /* grid-template-areas:
+    "h h h h"
+    "m . . s"
+    "f f f f" */
+}
+.img{
+    width: 100%;
+text-align: center;
+}
+body{
+    background-color: #333;
+}
